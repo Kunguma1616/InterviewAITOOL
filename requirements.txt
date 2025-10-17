@@ -1,0 +1,7 @@
+streamlit
+groq
+python-dotenv
+pdfminer.six
+SQLAlchemy
+psycopg2-binary
+typing_extensions
