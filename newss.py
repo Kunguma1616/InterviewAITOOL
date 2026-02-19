@@ -176,9 +176,6 @@ ensure_package("python-dotenv", "dotenv")
 from dotenv import load_dotenv
 load_dotenv(override=True)  # allow .env to replace anything
 
-# HARD-CODED FALLBACKS (used only if env vars are missing)
-DEFAULT_GROQ_KEY = "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"
-DEFAULT_DATABASE_URL = "postgresql+psycopg2://postgres:Balaji%401616@db.johhgvlloevgihyhzhxi.supabase.co:5432/postgres?sslmode=require"
 
 
 # Effective values (env wins; else fallback)
